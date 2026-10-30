@@ -1,0 +1,33 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {"query":"path:\"02 Modulos/01 Dashboard\"","color":{"a":1,"rgb":3447003}},
+    {"query":"path:\"02 Modulos/02 Productos\"","color":{"a":1,"rgb":3100495}},
+    {"query":"path:\"02 Modulos/03 Inventario\"","color":{"a":1,"rgb":15844367}},
+    {"query":"path:\"02 Modulos/04 Ventas\"","color":{"a":1,"rgb":15105570}},
+    {"query":"path:\"02 Modulos/05 Caja\"","color":{"a":1,"rgb":15548997}},
+    {"query":"path:\"02 Modulos/06 Reportes\"","color":{"a":1,"rgb":8947848}},
+    {"query":"path:\"02 Modulos/07 Proveedores y Compras\"","color":{"a":1,"rgb":11342935}},
+    {"query":"path:\"02 Modulos/08 Clientes y Fiados\"","color":{"a":1,"rgb":14368391}},
+    {"query":"path:\"03 SDD\"","color":{"a":1,"rgb":4033033}},
+    {"query":"path:\"06 Evidencias\"","color":{"a":1,"rgb":3177618}}
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.15,
+  "lineSizeMultiplier": 1.1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.9999999999999978,
+  "close": true
+}

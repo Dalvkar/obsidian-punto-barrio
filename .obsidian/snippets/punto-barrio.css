@@ -1,0 +1,44 @@
+:root {
+  --pb-green: #2f855a;
+  --pb-dashboard: #3498db;
+  --pb-products: #2ecc71;
+  --pb-inventory: #f1c40f;
+  --pb-sales: #e67e22;
+  --pb-cash: #ed6a5a;
+  --pb-reports: #888888;
+  --pb-purchases: #ad66d5;
+  --pb-credits: #db3f87;
+}
+
+.markdown-preview-view.punto-home h1,
+.markdown-source-view.punto-home .cm-header-1 { color: var(--pb-green); }
+
+.markdown-preview-view[class*="module-"] {
+  border-top: 5px solid var(--module-color);
+  padding-top: 1rem;
+}
+
+.markdown-preview-view[class*="module-"] h1,
+.markdown-preview-view[class*="module-"] h2,
+.markdown-source-view[class*="module-"] .cm-header { color: var(--module-color); }
+
+.module-dashboard { --module-color: var(--pb-dashboard); }
+.module-products { --module-color: var(--pb-products); }
+.module-inventory { --module-color: var(--pb-inventory); }
+.module-sales { --module-color: var(--pb-sales); }
+.module-cash { --module-color: var(--pb-cash); }
+.module-reports { --module-color: var(--pb-reports); }
+.module-purchases { --module-color: var(--pb-purchases); }
+.module-credits { --module-color: var(--pb-credits); }
+
+.callout[data-callout="dashboard"] { --callout-color: 52, 152, 219; --callout-icon: lucide-layout-dashboard; }
+.callout[data-callout="products"] { --callout-color: 46, 204, 113; --callout-icon: lucide-package; }
+.callout[data-callout="inventory"] { --callout-color: 241, 196, 15; --callout-icon: lucide-warehouse; }
+.callout[data-callout="sales"] { --callout-color: 230, 126, 34; --callout-icon: lucide-shopping-cart; }
+.callout[data-callout="cash"] { --callout-color: 237, 106, 90; --callout-icon: lucide-wallet-cards; }
+.callout[data-callout="reports"] { --callout-color: 136, 136, 136; --callout-icon: lucide-chart-no-axes-combined; }
+.callout[data-callout="purchases"] { --callout-color: 173, 102, 213; --callout-icon: lucide-truck; }
+.callout[data-callout="credits"] { --callout-color: 219, 63, 135; --callout-icon: lucide-hand-coins; }
+
+.metadata-container { border-left: 3px solid var(--module-color, var(--pb-green)); padding-left: .8rem; }
+.internal-link { font-weight: 600; }

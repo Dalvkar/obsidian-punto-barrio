@@ -1,0 +1,8 @@
+{
+  "accentColor": "#2f855a",
+  "baseFontSize": 16,
+  "enabledCssSnippets": ["punto-barrio"],
+  "showViewHeader": true,
+  "showRibbon": true,
+  "translucency": false
+}
